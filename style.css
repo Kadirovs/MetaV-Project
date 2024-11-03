@@ -4,8 +4,8 @@ body {
   background-color: #000;
 }
 
-.main {
+.container {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-gap: 10px;
-}
+}/*# sourceMappingURL=style.css.map */
