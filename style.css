@@ -13,9 +13,26 @@ body {
 nav ul {
   display: flex;
   flex-direction: row;
-  list-style: none;
   gap: 20px;
 }
+nav ul li {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav ul li a {
+  text-decoration: none;
   color: white;
+}
+
+button {
+  width: 200px;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: darkmagenta;
+  border-color: darkmagenta;
 }/*# sourceMappingURL=style.css.map */
